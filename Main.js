@@ -7,7 +7,7 @@ var win = document.getElementById("win");
 var passarfase = document.getElementById("passarfase");
 var perdeu = document.getElementById("perdeu");
 var click = document.getElementById("click");
-var selectedSkin = 'imagens/pessoas/pessoa1.png';
+var selectedSkin = 'pessoa1.png';
 
 fundo.volume = 0.2;
 fundo.loop = true;
