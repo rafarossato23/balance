@@ -37,11 +37,11 @@ window.onload = function() {
         setupGameplay: function() {
             let bgImage;
             if (app.level === 1) {
-                bgImage = 'imagens/background/aeroporto.png';
+                bgImage = 'aeroporto.png';
             } else if (app.level === 2) {
-                bgImage = 'imagens/background/confeitaria.png';
+                bgImage = 'confeitaria.png';
             } else if (app.level === 3) {
-                bgImage = 'imagens/background/canteiro_obras.png';
+                bgImage = 'canteiro_obras.png';
             }
             document.querySelector('.gameplay').style.backgroundImage = `url('${bgImage}')`;
     
@@ -73,11 +73,11 @@ window.onload = function() {
             playBlock.style.marginLeft = marginLeft;
         
             if(app.level === 1){
-                playBlock.style.backgroundImage = `url('imagens/malas/mala1.png')`;
+                playBlock.style.backgroundImage = `url('mala1.png')`;
             }else if(app.level === 2){
-                playBlock.style.backgroundImage = `url('imagens/bolos/bolo1.png')`;
+                playBlock.style.backgroundImage = `url('bolo1.png')`;
             }else if(app.level === 3){
-                playBlock.style.backgroundImage = `url('imagens/tijolo.png')`;
+                playBlock.style.backgroundImage = `url('tijolo.png')`;
             }
             playBlock.style.backgroundSize = "contain"; 
             playBlock.style.backgroundPosition = "center"; 
@@ -267,16 +267,16 @@ window.onload = function() {
                 let image;
                 if (app.level === 1) {
                     let malaIndex = Math.floor(Math.random() * 4) + 1; 
-                    image = 'imagens/malas/mala' + malaIndex + '.png';
+                    image = malaIndex + '.png';
                 } else if (app.level === 2) {
                     if (app.score === 19) {
-                        image = 'imagens/cereja.png';
+                        image = 'cereja.png';
                     } else {
                         let boloIndex = Math.floor(Math.random() * 3) + 1; 
-                        image = 'imagens/bolos/bolo' + boloIndex + '.png';
+                        image = 'bolo' + boloIndex + '.png';
                     }
                 } else if (app.level === 3) {
-                    image = 'imagens/tijolo.png';
+                    image = 'tijolo.png';
                 }
                 added.style.backgroundImage = 'url(' + image + ')';
                 added.style.backgroundSize = 'cover';
