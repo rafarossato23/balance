@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <audio id="somdefundo" src="audios/somdefundo.mp3" loop></audio>
-    <audio id="malacaindo" src="audios/malacaindo.mp3"></audio>
-    <audio id="cereja" src="audios/cereja.mp3"></audio>
-    <audio id="bolo" src="audios/bolodimurango.mp3"></audio>
-    <audio id="tijolo" src="audios/tijolo.mp3"></audio>
-    <audio id="win" src="audios/win.mp3"></audio>
-    <audio id="perdeu" src="audios/perder.mp3"></audio>
-    <audio id="passarfase" src="audios/paasardefase.mp3"></audio>
-    <audio id="click" src="audios/click.mp3"></audio>
+    <audio id="somdefundo" src="somdefundo.mp3" loop></audio>
+    <audio id="malacaindo" src="malacaindo.mp3"></audio>
+    <audio id="cereja" src="cereja.mp3"></audio>
+    <audio id="bolo" src="bolodimurango.mp3"></audio>
+    <audio id="tijolo" src="tijolo.mp3"></audio>
+    <audio id="win" src="win.mp3"></audio>
+    <audio id="perdeu" src="perder.mp3"></audio>
+    <audio id="passarfase" src="paasardefase.mp3"></audio>
+    <audio id="click" src="click.mp3"></audio>
 
     <div class='container'>
         <!-- tela de início -->
@@ -57,7 +57,7 @@
 
         <!-- tela do manual -->
         <div id="manual-screen" class="screen">
-            <img id="manual-title" src="imagens/titles/manual_title.png">
+            <img id="manual-title" src="manual_title.png">
             <div id="explica-manual">
                 <p>Bem-vindo ao Balance! </p>
                 <p>
@@ -79,7 +79,7 @@
 
         <!-- tela de configurações -->
         <div id="config-screen" class="screen" style="display: none;">
-            <img id="config-title" src="imagens/titles/config_title.png">
+            <img id="config-title" src="config_title.png">
             <div class="config-options">
                 <button id="skins" class="config-button">Skins<span class="material-symbols-outlined">person</span></button>
                 <div class="linha">
@@ -93,51 +93,51 @@
 
         <!-- tela de skins -->
         <div id="skin-screen" class="screen" style="display: none;">
-            <img id="skins-title" src="imagens/titles/skins_title.png">
+            <img id="skins-title" src="skins_title.png">
             <div class="skin-container">
                 <div class="skin-block">
                     <h3>Original</h3>
-                    <img src="imagens/pessoas/pessoa1.png" alt="Skin 1" class="skin-image">
+                    <img src="pessoa1.png" alt="Skin 1" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa1.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Bailarina</h3>
-                    <img src="imagens/pessoas/pessoa2.png" alt="Skin 2" class="skin-image">
+                    <img src="pessoa2.png" alt="Skin 2" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa2.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Mafioso</h3>
-                    <img src="imagens/pessoas/pessoa3.png" alt="Skin 3" class="skin-image">
+                    <img src="pessoa3.png" alt="Skin 3" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa3.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Mario</h3>
-                    <img src="imagens/pessoas/pessoa4.png" alt="Skin 4" class="skin-image">
+                    <img src="pessoa4.png" alt="Skin 4" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa4.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Naruto</h3>
-                    <img src="imagens/pessoas/pessoa5.png" alt="Skin 5" class="skin-image">
+                    <img src="pessoa5.png" alt="Skin 5" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa5.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Homem-Aranha</h3>
-                    <img src="imagens/pessoas/pessoa6.png" alt="Skin 6" class="skin-image">
+                    <img src="pessoa6.png" alt="Skin 6" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa6.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Harry Potter</h3>
-                    <img src="imagens/pessoas/pessoa7.png" alt="Skin 7" class="skin-image">
+                    <img src="pessoa7.png" alt="Skin 7" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa7.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Pikachu</h3>
-                    <img src="imagens/pessoas/pessoa8.png" alt="Skin 8" class="skin-image">
+                    <img src="pessoa8.png" alt="Skin 8" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa8.png">Escolher</button>
                 </div>
                 <div class="skin-block">
                     <h3>Boneco de Neve</h3>
-                    <img src="imagens/pessoas/pessoa9.png" alt="Skin 9" class="skin-image">
+                    <img src="/pessoa9.png" alt="Skin 9" class="skin-image">
                     <button class="choose-skin-button" data-skin="imagens/pessoas/pessoa9.png">Escolher</button>
                 </div>
             </div>
@@ -146,7 +146,7 @@
 
         <!-- tela de dificuldade -->
         <div id="difficulty-screen" class="screen" style="display: none;">
-            <img id="dific-title" src="imagens/titles/dific-title.png">
+            <img id="dific-title" src="dific-title.png">
             <div class="difficulty-options">
                 <button id="easy-button" class="dific-button">Fácil</button>
                 <button id="normal-button" class="dific-button">Normal</button>
@@ -157,50 +157,50 @@
 
         <!-- tela de créditos -->
         <div id="creditos-screen" class="screen">
-            <img id="credit-title" src="imagens/titles/credit-title.png">
+            <img id="credit-title" src="credit-title.png">
             <div id="lista-creditos">
                 <p>Desenvolvido por:</p>
                 <button class="credit-button" id="rafaela-button"><span class="material-symbols-outlined">keyboard_arrow_down</span></button><strong>Rafaela Perottoni Rossato: </strong>Gerente de projeto<br>
                 <div class="credit-information hidden" id="rafaela">
                     <div class="foto-container">
-                        <img class="foto" src="imagens/fotos/rafa.jpeg">
+                        <img class="foto" src="rafa.jpeg">
                     </div>
                     <div id="divisao">
                         <p>Estudante do curso técnico em Informática integrado ao Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Farroupilha.</p>
-                        <img id="logoCampus" src="imagens/logoCampus.png">
+                        <img id="logoCampus" src="logoCampus.png">
                     </div>
                 </div>
             
                 <button class="credit-button" id="naiara-button"><span class="material-symbols-outlined">keyboard_arrow_down</span></button><strong>Naiara Fardo Riboldi: </strong>Designer de Arte<br>
                 <div class="credit-information hidden" id="naiara">
                     <div class="foto-container">
-                        <img class="foto" src="imagens/fotos/nai.jpeg">
+                        <img class="foto" src="nai.jpeg">
                     </div>
                     <div id="divisao">
                         <p>Estudante do curso técnico em Informática integrado ao Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Farroupilha.</p>
-                        <img id="logoCampus" src="imagens/logoCampus.png">
+                        <img id="logoCampus" src="logoCampus.png">
                     </div>
                 </div>
             
                 <button class="credit-button" id="suelen-button"><span class="material-symbols-outlined">keyboard_arrow_down</span></button><strong>Suélen Carneiro Feijó: </strong>Desenvolvedor<br>
                 <div class="credit-information hidden" id="suelen">
                     <div class="foto-container">
-                        <img class="foto" src="imagens/fotos/susu.jpeg">
+                        <img class="foto" src="susu.jpeg">
                     </div>
                     <div id="divisao">
                         <p>Estudante do curso técnico em Informática integrado ao Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Farroupilha.</p>
-                        <img id="logoCampus" src="imagens/logoCampus.png">
+                        <img id="logoCampus" src="logoCampus.png">
                     </div>
                 </div>
             
                 <button class="credit-button" id="mariana-button"><span class="material-symbols-outlined">keyboard_arrow_down</span></button><strong>Mariana Carbonari de Pizzol: </strong>Designer de Som
                 <div class="credit-information hidden" id="mariana">
                     <div class="foto-container">
-                        <img class="foto" src="imagens/fotos/mari.jpeg">
+                        <img class="foto" src="mari.jpeg">
                     </div>
                     <div id="divisao">
                         <p>Estudante do curso técnico em Informática integrado ao Ensino Médio no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul - Campus Farroupilha.</p>
-                        <img id="logoCampus" src="imagens/logoCampus.png">
+                        <img id="logoCampus" src="logoCampus.png">
                     </div>
                 </div>
             </div>            
@@ -210,7 +210,7 @@
 
         <!-- tela de volume -->
         <div id="volume-screen" class="screen" style="display: none;">
-            <img id="volume-title" src="imagens/titles/volume-title.png">
+            <img id="volume-title" src="volume-title.png">
             <div class="volume-options">
                 <div class="linha">
                     <button id="toggle-sound-effects" class="volume-button">Efeitos Sonoros: On</button>
